@@ -1,53 +1,29 @@
-Source File
+Push / Pull Request
 
 ↓
 
-LoaderStage
+Checkout
 
 ↓
 
-SourceDocument
+Python 3.12
 
 ↓
 
-SplitterStage
+Install
 
 ↓
 
-RawEntry
+ruff check
 
 ↓
 
-HeaderStage
+mypy
 
 ↓
 
-LoreEntity
+pytest
 
 ↓
 
-SectionStage
-
-↓
-
-Section objects
-
-↓
-
-IndexerStage
-
-↓
-
-LoreDatabase
-
-↓
-
-Validator
-
-↓
-
-Statistics
-
-↓
-
-Exporters
+Success / Failure
