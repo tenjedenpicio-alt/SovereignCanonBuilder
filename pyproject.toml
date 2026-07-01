@@ -1,4 +1,3 @@
-```toml
 ###############################################################################
 # Sovereign Canon Builder
 #
@@ -133,6 +132,7 @@ target-version = "py312"
 line-length = 88
 
 [tool.ruff.lint]
+ignore = ["UP042"]
 
 select = [
 
@@ -159,6 +159,8 @@ select = [
 python_version = "3.12"
 
 strict = true
+
+disallow_untyped_decorators = false
 
 pretty = true
 
@@ -187,4 +189,3 @@ source = [
 show_missing = true
 
 skip_covered = false
-```
