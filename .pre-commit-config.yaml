@@ -55,6 +55,6 @@ repos:
       language: python
       additional_dependencies:
         - pytest==9.1.1
-        - pytest-cov
+        - pytest-cov==7.1.0
       pass_filenames: false
       always_run: true
